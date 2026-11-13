@@ -2,7 +2,7 @@
 # 8th October, 2026
 I decided to start with a prototype to first get the sensor working and counter any problems before i move on to the main board…..so i created a schematics and pcb for the sensor arcording to the sensor datasheet and i also added some silkscreen to the board and countered all errors by the drc
 
-[Timelapse](https://lookout.hackclub.com/api/media/99693688-e230-498b-8c9c-ee301395d457/video.mp4)
+https://lapse.hackclub.com/timelapse/YLul_ks-dd0N
 
 ![Screenshot 2026-10-08 171843](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/a52d1f813ef60c6ffb8f199d8f2bf4149125965072e2e867cc489810ef483e05.png)
 ![Screenshot 2026-10-08 171911](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/41f52297dc9de00248d347b7469343921ede516b393a11e4db5de8a40cce34c2.png)
@@ -15,7 +15,7 @@ I decided to start with a prototype to first get the sensor working and counter 
 So i decided to scrap the idea of making a prototype first and just decided to commit to everything....so since this is a vertical mouse, designing everything in one pcb would not be possible so as of now(SUBJECT TO CHANGE!) there will be 3 boards....the main board, which would be in the base and hold the sensor and mcu and also some leds...then we have the button borad, which would hold all the buttons and the scroll wheel encoder and aslo some leds....and maybe an extra board just for leds (cant have too many RBGs) so thats the basic idea for now
 Anyways for todays work what i did was to design the schematics for the main board....that is the sensor, mcu and led connections and also capacitor filters (or decoupling [or sum i think]).....oh have i stated that ill be using a rp2040 zero as the mcu and qmk for the firmware so i can sync it with my keyboard....so i guess thats it (for now!!!!!)
 
-[Timelapse](https://lookout.hackclub.com/api/media/4f9afbe1-ffd1-4a81-a071-90e44ea139a3/video.mp4)
+https://lapse.hackclub.com/timelapse/C3neIFGBjctD
 
 ![Screenshot 2026-10-09 002607](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/2c951849b3e54d9936813d2bbb2421f8bb8f11166f6fcf54a19d70368bc63ceb.png)
 ![Screenshot 2026-10-09 002358](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/092e72a8e41006b66402682ae10b0f7ce1b951063e7267c2acb8fcae7a11cdfd.png)
@@ -29,7 +29,7 @@ Anyways for todays work what i did was to design the schematics for the main boa
 # 10th October, 2026
 So today i think ive finnally completed the full schematics for the mouse….i added the button pcb today with a single sk6812 mini e, the rotary encoder and all 8 buttoons…. i had problems finding a mouse rotary encoder footprint so i watched a footprint guide and made my own and then i researched connectors (cuz i obv have to connect the two boards one way or the other) and i went with the jst zh connectors….i think thats all….i wired the buttons arccording to the mouse sensor data sheet and i added all the labels and connected it to the controller (ive almost run out of Easily usable gpio pins) …..im supposed to start the pcb but it already late anyways it gives me time to think about extra features and errors in the design
 
-[Timelapse](https://lookout.hackclub.com/api/media/b8a8793a-6724-49f0-8caa-6853908ea804/video.mp4)
+https://lapse.hackclub.com/timelapse/nKsvm_1ENQPn
 
 ![Screenshot 2026-10-10 223042](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/6338fb4b6fbab433be6f9bafb7845329729646e03e6e4ab921f2f8d60219d7ab.png)
 ![Screenshot 2026-10-10 223054](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/2fe7d7a27c36c600971e2e0544e5a03fab0d2d05ca7e1584cf1882986266cb88.png)
