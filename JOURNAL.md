@@ -52,4 +52,25 @@ https://lapse.hackclub.com/timelapse/jFKMXE5_Gvbo
 
 **Total time Spent: 2h 43m**
 
+# 15th October, 2026: Finished the main board PCB design
+i finished the main mouse board pcb today….this board will hold the MCU and the mouse sensor (plus ALOT of Cap and Res)….i made sure to connect the jst pins very well cuz that is what is going to connect the two board together …i guess now its to move to the CAD 
+
+https://lapse.hackclub.com/timelapse/zXjJy9GyL1mH
+
+![](/Images/Main-Board/pcb-design.png)
+![](/Images/Main-Board/pcb-front.png)
+![](/Images/Main-Board/pcb-back.png)
+
+**Total Time Spent: 2h 15m**
+
+# 24th October, 2026
+So today i started with the CAD... and trust me i had absolutely no idea what i was doing...i tried to create a stand for the two boards to rest in inside the case....i was having trouble joining the two of them together...it wasnt going as planned and i didnt see a way foward after that...so i lowk went to search for some tutorials
+
+https://lapse.hackclub.com/timelapse/LaPKxfqORLe1
+
+![](/Images/CAD/huh.png)
+
+**Total Time Spent: 1h 28m**
+
+
 
