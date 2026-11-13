@@ -1,17 +1,13 @@
 
 # 9th October, 2026
-
-
-
 I decided to start with a prototype to first get the sensor working and counter any problems before i move on to the main board…..so i created a schematics and pcb for the sensor arcording to the sensor datasheet and i also added some silkscreen to the board and countered all errors by the drc
 
+[Timelapse](https://lookout.hackclub.com/api/media/99693688-e230-498b-8c9c-ee301395d457/video.mp4)
+
 ![Screenshot 2026-10-08 171843](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/a52d1f813ef60c6ffb8f199d8f2bf4149125965072e2e867cc489810ef483e05.png)
-
 ![Screenshot 2026-10-08 171911](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/41f52297dc9de00248d347b7469343921ede516b393a11e4db5de8a40cce34c2.png)
-
 ![Screenshot 2026-10-08 172110](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/724a00276aadfc59da76713c8fe45742c2bb9b2d83ccbc1962aee0b96fd5e989.png)
 
-[Timelapse](https://lookout.hackclub.com/api/media/99693688-e230-498b-8c9c-ee301395d457/video.mp4)
 
 **Total time Spent: 3h 22m**
 
