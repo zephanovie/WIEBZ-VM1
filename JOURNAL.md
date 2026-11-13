@@ -1,5 +1,5 @@
 
-# 9th October, 2026
+# 8th October, 2026
 I decided to start with a prototype to first get the sensor working and counter any problems before i move on to the main board…..so i created a schematics and pcb for the sensor arcording to the sensor datasheet and i also added some silkscreen to the board and countered all errors by the drc
 
 [Timelapse](https://lookout.hackclub.com/api/media/99693688-e230-498b-8c9c-ee301395d457/video.mp4)
@@ -11,41 +11,31 @@ I decided to start with a prototype to first get the sensor working and counter 
 
 **Total time Spent: 3h 22m**
 
-### 2026-10-09 – So i decided to scrap the idea of making a prototype first and just decided to commit to everything....so since this is a vertical mouse, designing everything in one pcb would not be possible so as of
-
-**1.28h**
-
+# 9th October, 2026
 So i decided to scrap the idea of making a prototype first and just decided to commit to everything....so since this is a vertical mouse, designing everything in one pcb would not be possible so as of now(SUBJECT TO CHANGE!) there will be 3 boards....the main board, which would be in the base and hold the sensor and mcu and also some leds...then we have the button borad, which would hold all the buttons and the scroll wheel encoder and aslo some leds....and maybe an extra board just for leds (cant have too many RBGs) so thats the basic idea for now
 Anyways for todays work what i did was to design the schematics for the main board....that is the sensor, mcu and led connections and also capacitor filters (or decoupling [or sum i think]).....oh have i stated that ill be using a rp2040 zero as the mcu and qmk for the firmware so i can sync it with my keyboard....so i guess thats it (for now!!!!!)
 
-![Screenshot 2026-10-09 002607](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/2c951849b3e54d9936813d2bbb2421f8bb8f11166f6fcf54a19d70368bc63ceb.png)
-
-![Screenshot 2026-10-09 002358](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/092e72a8e41006b66402682ae10b0f7ce1b951063e7267c2acb8fcae7a11cdfd.png)
-
-![Screenshot 2026-10-09 002427](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/c6ba4e42e4428f9b4f27622f1b7790289a3ca8998bcfcdc8212f45bcc57b7dc7.png)
-
-![Screenshot 2026-10-09 002445](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/38407988b77045082f815353c36dda7ee30ba724eae64b9c55136ff9dd427526.png)
-
-![Screenshot 2026-10-09 002505](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/4ef6879e5d4f0f05157137eeb9b07ff950193c9499d4158b52db1b48735d3615.png)
-
 [Timelapse](https://lookout.hackclub.com/api/media/4f9afbe1-ffd1-4a81-a071-90e44ea139a3/video.mp4)
 
-### 2026-10-10 – So today i think ive finnally completed the full schematics for the mouse….i added the button pcb today with a single sk6812 mini e, the rotary encoder and all 8 buttoons…. i had problems finding a mo
+![Screenshot 2026-10-09 002607](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/2c951849b3e54d9936813d2bbb2421f8bb8f11166f6fcf54a19d70368bc63ceb.png)
+![Screenshot 2026-10-09 002358](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/092e72a8e41006b66402682ae10b0f7ce1b951063e7267c2acb8fcae7a11cdfd.png)
+![Screenshot 2026-10-09 002427](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/c6ba4e42e4428f9b4f27622f1b7790289a3ca8998bcfcdc8212f45bcc57b7dc7.png)
+![Screenshot 2026-10-09 002445](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/38407988b77045082f815353c36dda7ee30ba724eae64b9c55136ff9dd427526.png)
+![Screenshot 2026-10-09 002505](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/4ef6879e5d4f0f05157137eeb9b07ff950193c9499d4158b52db1b48735d3615.png)
 
-**3.6h**
+**Total Time Spent: 1h 17m**
 
+
+# 10th October, 2026
 So today i think ive finnally completed the full schematics for the mouse….i added the button pcb today with a single sk6812 mini e, the rotary encoder and all 8 buttoons…. i had problems finding a mouse rotary encoder footprint so i watched a footprint guide and made my own and then i researched connectors (cuz i obv have to connect the two boards one way or the other) and i went with the jst zh connectors….i think thats all….i wired the buttons arccording to the mouse sensor data sheet and i added all the labels and connected it to the controller (ive almost run out of Easily usable gpio pins) …..im supposed to start the pcb but it already late anyways it gives me time to think about extra features and errors in the design
 
+[Timelapse](https://lookout.hackclub.com/api/media/b8a8793a-6724-49f0-8caa-6853908ea804/video.mp4)
+
 ![Screenshot 2026-10-10 223042](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/6338fb4b6fbab433be6f9bafb7845329729646e03e6e4ab921f2f8d60219d7ab.png)
-
 ![Screenshot 2026-10-10 223054](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/2fe7d7a27c36c600971e2e0544e5a03fab0d2d05ca7e1584cf1882986266cb88.png)
-
 ![Screenshot 2026-10-10 223340](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/da96ec4818439d2fc0c7a78a894edfd685ec76ed5a19a788d6db411c98fe41c7.png)
-
 ![Screenshot 2026-10-10 223354](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/72b5f16a92db95bf1bc34741864cf132158223bcbfa2d999c5af2d1e0a342630.png)
-
 ![Screenshot 2026-10-10 223406](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/12590eb8f5a12e5368412ffa47a7730e84ccfb22e66d493beaf00c81af50c94d.png)
-
 ![Screenshot 2026-10-10 223430](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/fc252ff924dceecc4cee76f73c43b6d86297b16517094b5c76d7e53eaa0538ca.png)
 
-[Timelapse](https://lookout.hackclub.com/api/media/b8a8793a-6724-49f0-8caa-6853908ea804/video.mp4)
+**Total Time Spent: 3h 35m**
