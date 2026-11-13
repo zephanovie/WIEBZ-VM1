@@ -63,7 +63,7 @@ https://lapse.hackclub.com/timelapse/zXjJy9GyL1mH
 
 **Total Time Spent: 2h 15m**
 
-# 24th October, 2026
+# 24th October, 2026: started the CAD
 So today i started with the CAD... and trust me i had absolutely no idea what i was doing...i tried to create a stand for the two boards to rest in inside the case....i was having trouble joining the two of them together...it wasnt going as planned and i didnt see a way foward after that...so i lowk went to search for some tutorials
 
 https://lapse.hackclub.com/timelapse/LaPKxfqORLe1
@@ -72,5 +72,14 @@ https://lapse.hackclub.com/timelapse/LaPKxfqORLe1
 
 **Total Time Spent: 1h 28m**
 
+# 26th October, 2026
+Finnally, After who knows how long (we all do), ive gotten the shape of the mouse ofcourse there is still a lot more tweaks and stuff to add but that wont be an issue anymore now that ive gotten the shape right (i hope)
+
+https://lapse.hackclub.com/timelapse/fgXoCCs0VSGI
+
+![](/Images/CAD/basic-shape1.png)
+![](/Images/CAD/basic-shape2.png)
+
+**Total Time Spent: 7h 22m**
 
 
