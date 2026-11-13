@@ -1,5 +1,5 @@
 
-# 8th October, 2026
+# 8th October, 2026: Mouse Prototype
 I decided to start with a prototype to first get the sensor working and counter any problems before i move on to the main board…..so i created a schematics and pcb for the sensor arcording to the sensor datasheet and i also added some silkscreen to the board and countered all errors by the drc
 
 https://lapse.hackclub.com/timelapse/YLul_ks-dd0N
@@ -11,7 +11,8 @@ https://lapse.hackclub.com/timelapse/YLul_ks-dd0N
 
 **Total time Spent: 3h 22m**
 
-# 9th October, 2026
+
+# 9th October, 2026: Mouse Schematics
 So i decided to scrap the idea of making a prototype first and just decided to commit to everything....so since this is a vertical mouse, designing everything in one pcb would not be possible so as of now(SUBJECT TO CHANGE!) there will be 3 boards....the main board, which would be in the base and hold the sensor and mcu and also some leds...then we have the button borad, which would hold all the buttons and the scroll wheel encoder and aslo some leds....and maybe an extra board just for leds (cant have too many RBGs) so thats the basic idea for now
 Anyways for todays work what i did was to design the schematics for the main board....that is the sensor, mcu and led connections and also capacitor filters (or decoupling [or sum i think]).....oh have i stated that ill be using a rp2040 zero as the mcu and qmk for the firmware so i can sync it with my keyboard....so i guess thats it (for now!!!!!)
 
@@ -26,7 +27,7 @@ https://lapse.hackclub.com/timelapse/C3neIFGBjctD
 **Total Time Spent: 1h 17m**
 
 
-# 10th October, 2026
+# 10th October, 2026: Mouse Schematics 2
 So today i think ive finnally completed the full schematics for the mouse….i added the button pcb today with a single sk6812 mini e, the rotary encoder and all 8 buttoons…. i had problems finding a mouse rotary encoder footprint so i watched a footprint guide and made my own and then i researched connectors (cuz i obv have to connect the two boards one way or the other) and i went with the jst zh connectors….i think thats all….i wired the buttons arccording to the mouse sensor data sheet and i added all the labels and connected it to the controller (ive almost run out of Easily usable gpio pins) …..im supposed to start the pcb but it already late anyways it gives me time to think about extra features and errors in the design
 
 https://lapse.hackclub.com/timelapse/nKsvm_1ENQPn
@@ -39,3 +40,16 @@ https://lapse.hackclub.com/timelapse/nKsvm_1ENQPn
 ![Screenshot 2026-10-10 223430](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/vN9PxyQSUBhHT6mnBWDiwdD632NQBv8i/fc252ff924dceecc4cee76f73c43b6d86297b16517094b5c76d7e53eaa0538ca.png)
 
 **Total Time Spent: 3h 35m**
+
+# 11th October, 2026: Button Board Pcb Design
+i did the pcb design for the button board today, i laid out all the compoments and routed them to the jst connectors and the rest, the power lines gets a seperate jst connector....since i was routing all the components to a jast connector...everythiing around the jst was kinda cramped and routing proved to be difficult but i got it done eventually
+
+https://lapse.hackclub.com/timelapse/jFKMXE5_Gvbo
+
+![](./Images/Button-Board/Full-pcb-design.png)
+![](./Images/Button-Board/3d-pcb-front.png)
+![](./Images/Button-Board/3d-pcb-back.png)
+
+**Total time Spent: 2h 43m**
+
+
