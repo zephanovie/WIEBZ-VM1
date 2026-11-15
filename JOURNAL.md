@@ -82,4 +82,21 @@ https://lapse.hackclub.com/timelapse/fgXoCCs0VSGI
 
 **Total Time Spent: 7h 22m**
 
+# 30th October, 2026
+yhh im just tryna tweak it more to make it feel more smooth and ergonomic...and i tried too hollow it out but my fusion kept crashing again and again....ill have to think about how ill go through with this....
+
+https://lapse.hackclub.com/timelapse/Vp0ktQxw9aQK
+
+![](/Images/CAD/CAD02.png)
+
+**Total Time Spent: 2h 16m**
+
+# 2nd November, 2026
+yh i finnally hollowed it out and gave it a thickness....im not sure that this design will feel good so ill try to print a prototype first and get the feel and make changes 
+
+https://lapse.hackclub.com/timelapse/N8NL-ZU-2BhG
+
+![](/Images/CAD/hollowed-cad.png)
+
+**Total Time Spent: 37m**
 
